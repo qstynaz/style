@@ -1,0 +1,124 @@
+﻿/* style.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d32f2f, #b71c1c);
+    color: white;
+}
+
+nav {
+    width: 220px;
+    background-color: #b71c1c;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+    nav h1 {
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 15px 0;
+        font-size: 16px;
+        font-weight: 600;
+        transition: 0.2s;
+    }
+
+        nav a:hover {
+            color: #ffcccb;
+        }
+
+.main {
+    margin-left: 220px;
+    padding: 40px 30px;
+    flex: 1;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+h2 {
+    color: #ffeaea;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #ffebee;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+    input:focus, textarea:focus {
+        outline: 2px solid #ffcdd2;
+    }
+
+button {
+    padding: 10px 20px;
+    background-color: #c62828;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+    button:hover {
+        background-color: #a91b1b;
+    }
+
+.login-container {
+    background-color: white;
+    color: #333;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: auto;
+}
+
+    .login-container h2 {
+        color: #c62828;
+        margin-bottom: 15px;
+    }
+
+    .login-container label {
+        color: #333;
+        font-weight: 600;
+    }
+
+.footer-text {
+    font-size: 12px;
+    color: #666;
+    margin-top: 15px;
+    text-align: center;
+}
